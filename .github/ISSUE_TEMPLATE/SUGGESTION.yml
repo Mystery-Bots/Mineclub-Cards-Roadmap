@@ -1,0 +1,27 @@
+name: Suggestion
+description: Suggest a new feature
+title: ""
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feel free to suggest any kind of feature you would like added. Note not all suggestions will/can be added
+  - type: dropdown
+    id: type
+    attributes:
+      label: Bot or API suggestion
+      description: What kind of suggestion are you making
+      options:
+        - Bot
+        - API
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Explain what your suggestion is and why it should be added
+      placeholder: Description here.
+    validations:
+      required: true
