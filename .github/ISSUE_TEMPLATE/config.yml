@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Roadmap
+    url: https://github.com/orgs/Mystery-Bots/projects/3/
+    about: Check out the current roadmap
+  - name: Support Server
+    url: https://discord.gg/abQTFVprNW
+    about: Join for support.
